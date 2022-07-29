@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="phaser.min.js"></script>
+    <!-- <script src="phaser-inspector.min"></script> -->
+    <script src="boot.js"></script>
+    <script src="preload.js"></script>
+    <script src="gametitle.js"></script>
+    <script src="thegame.js"></script>
+    <script src="battle.js"></script>
+    <script src="gameover.js"></script>
+    <script src="lvl1room.js"></script>
+    <script src="starto.js"></script>
+    <script src="trapRoom1.js"></script>
+
+    <style>
+        body {
+            margin: 0
+        }
+    </style>
+    <script>
+        (function () {
+            //_width = window.innerWidth;
+            //_height = window.innerHeight;
+            _width = 1280;
+            _height = 720;
+            
+            var game = new Phaser.Game(_width, _height, Phaser.CANVAS, "game");
+            
+            game.state.add("Boot", boot);
+            game.state.add("Preload", preload);
+            game.state.add("GameTitle", gameTitle);
+            game.state.add("TheGame", theGame);
+            game.state.add("Battle", battle);
+            game.state.add("rockTunel", rockTunel);
+            game.state.add("GameOver", gameOver);
+            game.state.add("starto", starto);
+            game.state.add("trapRoom1", trapRoom1);
+            game.state.start("Boot");
+        })();
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

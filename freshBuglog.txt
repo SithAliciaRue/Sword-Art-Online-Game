@@ -1,0 +1,13 @@
+Hot_Bugs
+1) jesli okno menu jest otwarte podczas zmiany instancji wtedy nie mozna go juz ponownie otowrzyć w nowej instancji 
+2) Dodać gold i inen do okna statow
+
+
+
+TO DO
+2) Brak pauzy po ataku - forum []
+3) Gracze nie ginie <- cala sekwencja smierci gracza [] 
+4) muzyka do traproom i efekt shake albo inny na ekranie po wejsciu []
+5) panel do rozdawania punktow w staty 
+6) auto zmiana eq z informacja 
+7) dunkcje do naliczania defa dla gracza jak i dla mobow
